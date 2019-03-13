@@ -77,7 +77,7 @@ if(isset($_POST["reset"])){
 
    if ($sql) {    
     //$link="<a href='www.domain.com/reset_password.php?token=".$token."'>Click To Reset password</a>";
-       $link="<a href='http://localhost/AdminLTE-2.4.5/reset_password.php?token=".$token."'>Click To Reset password</a>";
+       $link="<a href='http://localhost/Affiliate%20Marketing/reset_password.php?token=".$token."'>Click To Reset password</a>";
    // require_once('PHPMailerAutoload.php');
     $mail = new PHPMailer();
     $mail->CharSet =  "utf-8";
